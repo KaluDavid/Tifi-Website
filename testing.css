@@ -1,21 +1,17 @@
 body{
-    padding: 0%;
+    /* padding: 10%; */
     margin: 0;
     box-sizing: border-box;
-}
+    background: black;
 
 
-.port_video{
-    width: 100%;
 }
-.small_video{
+
+div{
+    background-image: url('blog_images/blog.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:    cover;
     width: 100%;
-    overflow: hidden;
-    height: 404px;
-}
-.small_video video{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    filter: brightness(0.6);
+    height: 70vh;
 }

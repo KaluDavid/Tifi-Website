@@ -11,7 +11,6 @@ body{
 }
 
 
-
 :root {
     --text-color: #010309;
     --gap: 50px;
@@ -116,23 +115,19 @@ nav .active {
 
 
 
-
-
-
+/* Main */
 
 /* FIRST SECTION */
 .two_img{
     display: flex;
     gap: 10px;
     position: absolute;
-
- right: 0;
+ right: 2%;
  z-index: 1;
- top: 10%;
+ top: 30%;
 }
 .two_img img{
     object-fit: contain;
-
     height: 10vh;
 }
 .first{
@@ -146,26 +141,34 @@ right: 80%;
 top: 100%;
 }
 
-.port_video{
+
+.blog{
+    margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
-    position: relative;
+    height: 70vh;
+
+position: relative;
 }
-.small_video{
+
+.small_image{
     width: 100%;
     overflow: hidden;
     height: 500px;
 }
-.small_video video{
+.small_image img{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    filter: brightness(0.6);
+    filter: brightness(0.4);
 }
 
 .stick_video{
     text-align: center;
     position: absolute;
-    top: 29%;
+    top: 39%;
     left: 40%;
     color: #FFF;
 }
@@ -177,72 +180,107 @@ font-family: Montserrat;
 font-size: 40px;
 font-style: normal;
 font-weight: 700;
-/* line-height: 89.6px;  */
 letter-spacing: 0.32px;
 position: relative;
 padding: 0;
 margin: 0;
+
 }
 .stick_video img{
     position: absolute;
-   margin-left: 32%;
+   margin-left: 20%;
    bottom: 65%;
    /* padding-bottom: 20%; */
 }
 
 
-.img_5{
-    padding: 24px 50px;
-    display: inline-flex;
-justify-content: center;
-align-items: center;
-gap: 25px;
 
-position: absolute;
-top: 90%;
-}
-.sound{
-    color: #576072;
-    font-weight: bold;
-    background-color: #fff;
+.two_img2{
     display: flex;
-width: 230px;
-justify-content: center;
+    gap: 10px;
+    position: absolute;
+ left: 4%;
+ z-index: 1;
+bottom: 4%;
+}
+.two_img2 img{
+    object-fit: contain;
+
+    height: 10vh;
+}
+
+.round{
+    position: absolute;
+    bottom: 20%;
+    left: 20%;
+}
+.round1{
+    position: absolute;
+    z-index: 1;
+    top: 10%;
+    left: 70%;
+}
+/* Second section */
+
+    .second_section{
+        display: flex;
 align-items: center;
-gap: 9px;
+/* justify-content: center; */
+flex-direction: column;
+gap: 34px;
+
+padding: 110px 0px 50px 50px;
+    }
+
+    .three_div{
+        display: flex;
+align-items: center;
+gap: 34px; 
+margin: 0;
+
+    }
+
+    .div1{
+        margin: 0;
+        display: flex;
+height: 600px;
+flex-direction: column;
+align-items: flex-start;
+/* gap: 40px; */
+width: 30%;
 border-radius: 8px;
-border: 0.6px solid  #E1E1E1;
-
-}
-.sound img{
-    width: 30px;
-    height: 30px;
-    object-fit: contain;
-}
-
-/* Two cubes */
-.one_img{
-   margin-top: 5%;
-    display: flex;
-    gap: 81rem;
-    /* gap: 20px; */
-justify-content: center;
-    align-items: center;
+border: 1px solid  #E1E1E1;
+background: #FFF;
+    }
+.div1 img{
     width: 100%;
-    /* height: 10%; */
-}
-.one_img img{
-    width: 50px;
     object-fit: contain;
 }
+    .inside_div{
+        display: flex;
+padding: 10px 16px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+    }
+    .inside_div  p{
+        line-height: 25px;
+    }
+    .inside_div h2{
+        line-height: 30px;
+font-size: 20px;
+    }
 
 
-/* SECOND SECTION */
-.second_section{
+
+    
+/* THIRD SECTION */
+
+.third_section{
     padding: 0px 50px 0px 50px;
     margin: 0;
     display: flex;
-    gap: 70px;
+    gap: 34px;
     flex-direction: column;
 }
 
@@ -251,7 +289,7 @@ justify-content: center;
 .first_video{
     display: flex;
 align-items: center;
-gap: 70px;
+gap: 34px;
 }
 
 .one_video{
@@ -260,7 +298,7 @@ padding: 0;
 position: relative;
 }
 .one_video .lambo{
-    width: 372px;
+    width: 394px;
 height: 304px;
 }
 .pause{
@@ -269,12 +307,13 @@ flex-direction: column;
 align-items: center;
 gap: 30px;
 font-size: 14px;
-/* margin-bottom: 200%; */
 bottom: 10%;
 left: 7%;
 position: absolute;
 color: white;
 }
+
+
 
 
 
@@ -315,7 +354,8 @@ position: relative;
     align-items: center;
     position: absolute;
     left: 35%;
-    top: 143rem;
+    top: 178rem;
+
 z-index: 1;
 
 }
