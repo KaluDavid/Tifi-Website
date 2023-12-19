@@ -36,8 +36,6 @@ gap: 300px;
 header .logo {
     display: flex;
     align-items: center;
-    /* justify-content: center; */
-
 }
 
 
@@ -45,10 +43,6 @@ nav {
     display: flex;
     align-items: center;
     gap: var(--gap);
-
-
-
-
 }
 
 

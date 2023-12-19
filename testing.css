@@ -7,11 +7,99 @@ body{
 
 }
 
-div{
-    background-image: url('blog_images/blog.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:    cover;
-    width: 100%;
-    height: 70vh;
+.section1 {
+    padding: 80px 50px;
+    font-family: 'Onest', sans-serif;
+  
+
+}
+
+.section_div1 {
+    display: flex;
+align-items: center;
+gap: 74px;
+}
+.div1_project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    color: var(--Text-color-100, #010309);
+    font-family: Montserrat;
+
+    
+}
+.div1_project h1 {
+    text-align: left;
+
+    /* text-align: center; */
+    font-size: 40px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.div1_project span {
+    color: #FF7F50;
+}
+
+.div1_project p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height : 25px;
+    text-align: left;
+}
+
+
+.portfolio {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.div1_project .portfolio a {
+    text-decoration: var(--link-decoration);
+}
+
+ .portfolio a button {
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #FF7F50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.6s ease;
+    text-transform: capitalize;
+}
+
+ .portfolio a button:hover {
+    background-color: #fff;
+    color: #FF7F50;
+    border: 1px solid #FF7F50;
+}
+
+.button{
+    display: flex;
+    gap: 10px;
+padding: 10px 20px;
+align-items: center;
+border-radius: 5px;
+border: none;
+background-color: #fff;
+cursor: pointer;
+}
+.button img{
+    width: 30px;
+    object-fit: contain;
+}
+
+.guitar{
+    width: 50%;
+}
+.guitar img{
+    width: 620px;
+    border-radius: 8px;
+    height: 528px;
+    object-fit: cover;
 }
