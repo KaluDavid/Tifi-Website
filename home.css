@@ -672,7 +672,7 @@ main {
     flex-direction: column;
     align-items: center;
     position: absolute;
-    left: 35%;
+    left: 30%;
     top: 295rem;
     z-index: 1;
 
@@ -1042,24 +1042,30 @@ footer input {
         background-color: #FFF;
         z-index: 4;
         width: 100%;
+        padding: 24px 150px 24px 50px;
     }
+
     .nav{
         display: none;
+     
     }
 
     .icon{
         display: block;
         color: black;
+       cursor: pointer;
     }
     .hamburger{
         /* display: block; */
         position: fixed;
         z-index: 5;
-        background-color: #FFF;
-        left: 10rem;
-        width: 90%;
+        /* background-color: #FFF; */
+        background-color: rgba(255, 255, 255, 0.8);
+        /* left: 10rem; */
+        width: 100%;
         height: 100%;
         top: 80px;
+backdrop-filter: blur(2px);
 
        
        
@@ -1067,14 +1073,77 @@ footer input {
 
     .hamburger nav{
         flex-direction: column;
-        margin-top: 10%;
+        /* margin-top: 10%; */
         font-size: larger;
         /* align-items: flex-start;
         text-align: left;
         margin-left: 9%; */
-   
+   background-color: white;
+   width: 90%;
+   margin-left: 25%;
+   height: 100%;
+   left: 0;
         gap: 40px;
     }
 
- 
+/* main */
+main{
+    padding-top: 7%;
+
+}
+
+/* section1 */
+.video1{
+    width: 300px;
+}
+.video2{
+    width: 300px;
+}
+.video3{
+    width: 300px;
+}
+
+
+
+/*  */
+.div_cube .man1 {
+    top: 65rem;
+    left: 6%;
+}
+
+.cube {
+    bottom: 18rem;
+}
+
+.this_cube {
+    margin-left: 100%;
+    margin-top: 5%;
+}
+
+.man2 {
+    width: 350px;
+    top: 7rem;
+    left: 9rem;
+}
+
+
+    /* Our Services */
+ #none{
+    display: none;
+ }
+ .editing1{
+    width: 100%;
+    height: 50%;
+    gap: 20px;
+    padding-bottom: 20px;
+ }
+ #none1{
+    display: none;
+ }
+
+ /* last_div */
+ .content{
+    top: 330rem;
+    left:25%
+ }
 }
