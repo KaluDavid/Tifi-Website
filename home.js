@@ -6,3 +6,13 @@ function video() {
         video.pause();
     }
 }
+
+// hamburger menu
+function hamburgerMenu() {
+    var x = document.getElementById("visible");
+    if (x.style.display === "block"){
+        x.style.display = "none";
+    }else{
+        x.style.display = "block"
+    }
+}
