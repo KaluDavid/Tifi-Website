@@ -60,6 +60,7 @@ header .logo {
     display: none;
 
 }
+
 nav {
     display: flex;
     align-items: center;
@@ -1036,114 +1037,361 @@ footer input {
 
 /* screen 870*/
 @media screen and (max-width:870px) {
-    header{
+    header {
         gap: 500px;
         position: fixed;
         background-color: #FFF;
         z-index: 4;
         width: 100%;
-        padding: 24px 150px 24px 50px;
+        padding: 24px 150px 24px 80px;
     }
 
-    .nav{
+    .nav {
         display: none;
-     
+
     }
 
-    .icon{
+    .icon {
         display: block;
         color: black;
-       cursor: pointer;
+        cursor: pointer;
     }
-    .hamburger{
-        /* display: block; */
+
+    .hamburger {
         position: fixed;
         z-index: 5;
-        /* background-color: #FFF; */
         background-color: rgba(255, 255, 255, 0.8);
-        /* left: 10rem; */
         width: 100%;
         height: 100%;
         top: 80px;
-backdrop-filter: blur(2px);
+        backdrop-filter: blur(2px);
 
-       
-       
+
+
     }
 
-    .hamburger nav{
+    .hamburger nav {
         flex-direction: column;
-        /* margin-top: 10%; */
         font-size: larger;
-        /* align-items: flex-start;
-        text-align: left;
-        margin-left: 9%; */
-   background-color: white;
-   width: 90%;
-   margin-left: 25%;
-   height: 100%;
-   left: 0;
+        background-color: white;
+        width: 90%;
+        margin-left: 25%;
+        height: 100%;
+        left: 0;
         gap: 40px;
     }
 
-/* main */
-main{
-    padding-top: 7%;
+    /* main */
+    main {
+        padding-top: 7%;
 
-}
+    }
 
-/* section1 */
-.video1{
-    width: 300px;
-}
-.video2{
-    width: 300px;
-}
-.video3{
-    width: 300px;
-}
+    /* section1 */
+    .video1 {
+        width: 300px;
+    }
+
+    .video2 {
+        width: 300px;
+    }
+
+    .video3 {
+        width: 300px;
+    }
 
 
 
-/*  */
-.div_cube .man1 {
-    top: 65rem;
-    left: 6%;
-}
+    /*  */
+    .div_cube .man1 {
+        top: 65rem;
+        left: 6%;
+    }
 
-.cube {
-    bottom: 18rem;
-}
+    .cube {
+        bottom: 18rem;
+    }
 
-.this_cube {
-    margin-left: 100%;
-    margin-top: 5%;
-}
+    .this_cube {
+        margin-left: 100%;
+        margin-top: 5%;
+    }
 
-.man2 {
-    width: 350px;
-    top: 7rem;
-    left: 9rem;
-}
+    .man2 {
+        width: 350px;
+        top: 7rem;
+        left: 9rem;
+    }
 
 
     /* Our Services */
- #none{
-    display: none;
- }
- .editing1{
-    width: 100%;
-    height: 50%;
-    gap: 20px;
-    padding-bottom: 20px;
- }
- #none1{
-    display: none;
- }
+    #none {
+        display: none;
+    }
 
- /* last_div */
- .content{
-    top: 330rem;
-    left:25%
- }
+    .editing1 {
+        width: 100%;
+        height: 50%;
+        gap: 20px;
+        padding-bottom: 20px;
+    }
+
+    #none1 {
+        display: none;
+    }
+
+    /* last_div */
+    .content {
+        top: 330rem;
+        left: 25%
+    }
+}
+
+/* screen 822 */
+@media screen and (max-width:822px) {
+    .div_cube .man1 {
+        top: 67rem;
+        left: 6%;
+    }
+
+
+    header {
+        gap: 440px;
+        padding: 24px 120px 24px 80px;
+    }
+
+    .content {
+        top: 327rem;
+
+    }
+}
+
+/* screen 708 */
+
+@media screen and (max-width:708px) {
+    header {
+        gap: 400px;
+        padding: 24px 120px 24px 80px;
+    }
+
+    .div_cube .man1 {
+        top: 68rem;
+        left: 6%;
+    }
+
+    .content {
+        top: 323rem;
+        left: 20%
+    }
+
+}
+
+
+
+/* screen 682 */
+@media screen and (max-width:682px) {
+    header {
+        gap: 350px;
+        padding: 24px 120px 24px 80px;
+    }
+
+
+    /* section1 */
+    .video1 {
+        width: 250px;
+    }
+
+    .video2 {
+        width: 250px;
+    }
+
+    .video3 {
+        width: 250px;
+    }
+
+
+
+    /*  */
+    .div_cube .man1 {
+        /* top: 65rem; */
+        left: 6%;
+    }
+
+    .cube {
+        right: 4%;
+
+        bottom: 18rem;
+    }
+
+    .this_cube {
+        margin-left: 85%;
+        margin-top: 5%;
+    }
+
+    .man2 {
+        width: 350px;
+        top: 7rem;
+        left: 5rem;
+    }
+
+    .content {
+        top: 320rem;
+        left: 15%
+    }
+
+
+    /* footer */
+    .footer_div1 {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .tifi {
+        width: 100%;
+
+    }
+
+    .tifi p {
+        line-height: 25px;
+    }
+
+}
+
+
+/* screen 602 */
+@media screen and (max-width:602px) {
+    header {
+        gap: 300px;
+        padding: 24px 24px 24px 24px;
+    }
+
+    .first_client {
+        width: 100%;
+
+    }
+
+}
+
+
+/* screen 560 */
+@media screen and (max-width:560px) {
+
+    /*  */
+    .div_cube .man1 {
+        top: 61rem;
+        left: 6%;
+        width: 350px;
+        height: 350px;
+    }
+
+    .cube {
+        right: 4%;
+
+        bottom: 18rem;
+    }
+
+    .this_cube {
+        margin-left: 85%;
+        margin-top: 5%;
+    }
+
+    .man2 {
+        width: 350px;
+        top: 7rem;
+        left: 2rem;
+    }
+
+
+    /* section1 */
+    .video1 {
+        width: 200px;
+        height: 200px;
+    }
+
+    .video2 {
+        width: 200px;
+        height: 200px;
+    }
+
+    .video3 {
+        width: 200px;
+        height: 410px;
+    }
+
+
+    .content {
+        top: 320rem;
+        left: 8%;
+    }
+
+    .client1 .first_client {
+        padding: 150px 40px;
+    }
+
+    .star p {
+        width: 100%;
+    }
+}
+
+
+
+/* screen 526 */
+@media screen and (max-width:526px) {
+    .cube {
+        right: 4%;
+        bottom: 2rem;
+    }
+
+    .this_cube {
+        margin-left: 0%;
+        left: 22rem;
+        margin-top: 17rem;
+     
+        position: relative;
+        float: inline-start;
+    }
+
+    .man2 {
+        width: 350px;
+        top: 0%;
+        left: 0%;
+    }
+
+    .content {
+        top: 315rem;
+        left: 5%;
+    }
+
+
+}
+
+
+/* screen 521 */
+@media screen and (max-width:521px) {
+    .content{
+        top: 358rem;
+        align-items: center;
+    }
+    .content .work button{
+        width: 150%;
+    
+    }
+    .content h1{
+    text-align: center;
+    width: 80%;
+    }
+
+    .this_cube {
+ display: none;
+    }
+
+    .first_client{
+        padding: 0px 40px;
+        height: 120vh;
+        width: 80%;
+        padding: 0px;
+        align-items: flex-start;
+       flex-direction: column;
+    }
+    
 }
