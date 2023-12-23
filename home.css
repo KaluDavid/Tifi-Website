@@ -1262,7 +1262,7 @@ footer input {
 @media screen and (max-width:602px) {
     header {
         gap: 300px;
-        padding: 24px 24px 24px 24px;
+        padding: 24px;
     }
 
     .first_client {
@@ -1368,19 +1368,29 @@ footer input {
 
 /* screen 521 */
 @media screen and (max-width:521px) {
+    header{
+        gap: 210px;
+    }
+    
+    
     .content{
-        top: 358rem;
+        top: 360rem;
+        width: 80%;
         align-items: center;
+        left: 3rem;
     }
     .content .work button{
-        width: 150%;
-    
+        width: 100%; 
+margin-right: 5rem;
     }
     .content h1{
     text-align: center;
-    width: 80%;
+   
+    font-size: 30px;
     }
-
+.div_cube{
+    display: none;
+}
     .this_cube {
  display: none;
     }
@@ -1393,5 +1403,60 @@ footer input {
         align-items: flex-start;
        flex-direction: column;
     }
+
+}
+
+/* screen 455 */
+@media screen and (max-width:455px) {
     
+    .video1 {
+        width: 150px;
+        height: 200px;
+    }
+
+    .video2 {
+        width: 150px;
+        height: 200px;
+    }
+
+    .video3 {
+        width: 200px;
+        height: 410px;
+    }
+
+        .first_client{
+        /* height: 120vh; */
+        width: 100%;
+
+    }
+
+
+    .content{
+        top: 337rem;
+      
+    }
+
+}
+
+/* screen 421 */
+@media screen and (max-width:421px) {
+    body{
+        width: 100%;
+    }
+    
+    header{
+        gap: 115px;
+        padding: 24px 0px;
+        width: 100%;
+    }
+
+    .logo1{
+width: 45%;
+    }
+    
+    .logo2{
+        width: 20%;
+            }
+
+
 }
