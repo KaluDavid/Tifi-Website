@@ -1346,7 +1346,7 @@ footer input {
         margin-left: 0%;
         left: 22rem;
         margin-top: 17rem;
-     
+
         position: relative;
         float: inline-start;
     }
@@ -1368,47 +1368,51 @@ footer input {
 
 /* screen 521 */
 @media screen and (max-width:521px) {
-    header{
+    header {
         gap: 210px;
     }
-    
-    
-    .content{
+
+
+    .content {
         top: 360rem;
         width: 80%;
         align-items: center;
         left: 3rem;
     }
-    .content .work button{
-        width: 100%; 
-margin-right: 5rem;
-    }
-    .content h1{
-    text-align: center;
-   
-    font-size: 30px;
-    }
-.div_cube{
-    display: none;
-}
-    .this_cube {
- display: none;
+
+    .content .work button {
+        width: 100%;
+        margin-right: 5rem;
     }
 
-    .first_client{
+    .content h1 {
+        text-align: center;
+
+        font-size: 30px;
+    }
+
+    .div_cube {
+        display: none;
+    }
+
+    .this_cube {
+        display: none;
+    }
+
+    .first_client {
         padding: 0px 40px;
         height: 120vh;
         width: 80%;
         padding: 0px;
         align-items: flex-start;
-       flex-direction: column;
+        flex-direction: column;
     }
 
 }
 
 /* screen 455 */
 @media screen and (max-width:455px) {
-    
+
     .video1 {
         width: 150px;
         height: 200px;
@@ -1424,39 +1428,42 @@ margin-right: 5rem;
         height: 410px;
     }
 
-        .first_client{
+    .first_client {
         /* height: 120vh; */
         width: 100%;
 
     }
 
 
-    .content{
+    .content {
         top: 337rem;
-      
+
     }
 
 }
 
-/* screen 421 */
-@media screen and (max-width:421px) {
-    body{
-        width: 100%;
+/* screen 428 */
+@media screen and (max-width:428px) {
+    body {
+        max-width: 100%;
+        margin: 0;
     }
-    
-    header{
+*{
+    /* margin: 0; */
+    max-width: 100%;
+}
+    header {
         gap: 115px;
         padding: 24px 0px;
-        width: 100%;
+        max-width: 100%;
     }
 
-    .logo1{
-width: 45%;
+ 
+
+    .section2 {
+        /* padding: 30px 0px 50px 0px; */
+        max-width: 100%;
+        /* margin: 0%; */
+
     }
-    
-    .logo2{
-        width: 20%;
-            }
-
-
 }
