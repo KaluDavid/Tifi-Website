@@ -139,6 +139,7 @@ nav .active {
 /* main content */
 main {
     overflow-x: hidden;
+    width: 100%;
 }
 
 .section1 {
@@ -209,6 +210,7 @@ main {
     background-color: #FF7F50;
     color: #fff;
     border: none;
+    width: 120%;
     border-radius: 4px;
     transition: background-color 0.6s ease;
     text-transform: capitalize;
@@ -1447,23 +1449,183 @@ footer input {
     body {
         max-width: 100%;
         margin: 0;
+        padding: 0%;
     }
-*{
-    /* margin: 0; */
-    max-width: 100%;
-}
+
     header {
         gap: 115px;
         padding: 24px 0px;
         max-width: 100%;
     }
 
- 
+
 
     .section2 {
-        /* padding: 30px 0px 50px 0px; */
         max-width: 100%;
-        /* margin: 0%; */
 
+    }
+
+    .links {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+
+
+/* Screen 400 */
+@media screen and (max-width:400px) {
+    header {
+        gap: 150px;
+    }
+    main {
+        width: 105%;
+        overflow-x: hidden;
+     
+    }
+    footer {
+        width: 105%;
+        overflow-x: hidden;
+     
+    }
+
+    .div1_project h1 {
+        font-size: 25px;
+    }
+
+    .logo1 {
+        width: 50%;
+    }
+
+    .logo2 {
+        width: 20%;
+    }
+
+.content{
+    top: 333rem;
+}
+    .content h1 {
+        font-size: 23px;
+        padding: 0%;
+        /* margin-left: 2rem; */
+    }
+    .work input {
+        width: 60%;
+    }
+}
+
+
+/* screen 368 */
+@media screen and (max-width:368px) {
+    main {
+        width: 110%;
+        overflow-x: hidden;
+     
+    }
+    footer {
+        width: 110%;
+        overflow-x: hidden;
+     
+    }
+
+
+    
+
+    .video1 {
+        width: 140px;
+        height: 200px;
+    }
+
+    .video2 {
+        width: 140px;
+        height: 200px;
+    }
+
+    .video3 {
+        width: 150px;
+        height: 410px;
+    }
+    .a{
+        width: 40%;
+    }
+}
+
+/* screen 320 */
+@media screen and (max-width:320px) {
+    main {
+        width: 120%;
+        overflow-x: hidden;
+    }
+
+    footer {
+        width: 120%;
+        overflow-x: hidden;
+    }
+
+    .div1_project h1 {
+        font-size: 25px;
+    }
+
+    .logo1 {
+        width: 45%;
+    }
+
+    .logo2 {
+        width: 20%;
+    }
+
+
+
+    .video1 {
+        width: 120px;
+        height: 200px;
+    }
+
+    .video2 {
+        width: 120px;
+        height: 200px;
+    }
+
+    .video3 {
+        width: 130px;
+        height: 410px;
+    }
+
+    .portfolio {
+        flex-direction: column;
+        gap: 12px;
+        align-items: center;
+        padding-left: 10%;
+    }
+
+    .portfolio a button {
+        width: 150%;
+    }
+
+    .portfolio .b button {
+        width: 150%;
+        margin-right: 1rem;
+
+    }
+
+
+    .content {
+        top: 350rem;
+
+    }
+
+    .content h1 {
+        font-size: 23px;
+        padding: 0%;
+        margin-left: 2rem;
+    }
+
+    .content .work button {
+        width: 130%;
+        margin-right: 0rem;
+    }
+
+    .work input {
+        width: 50%;
     }
 }
